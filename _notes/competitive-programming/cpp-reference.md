@@ -2,6 +2,7 @@
 title: "cpprefjp — C++日本語リファレンス"
 description: "暇なときに眺めたり、分からないC++の機能を調べたりするための辞書。"
 category: competitive-programming
+topic: cpp
 kind: reference
 tags: [C++, リファレンス]
 ---

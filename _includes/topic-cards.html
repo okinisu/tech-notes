@@ -1,0 +1,13 @@
+{% if include.topics.size > 0 %}
+<section class="topic-section">
+  <h2>テーマから探す</h2>
+  <div class="category-grid">
+    {% for topic in include.topics %}
+    <a class="category-card" href="{{ topic.url | relative_url }}">
+      <h3>{{ topic.title | escape }} <span aria-hidden="true">→</span></h3>
+      <p>{{ topic.description | escape }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}

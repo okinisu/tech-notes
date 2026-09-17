@@ -1,0 +1,18 @@
+<nav class="breadcrumbs" aria-label="現在の位置">
+  <ol>
+    <li><a href="{{ '/' | relative_url }}">トップ</a></li>
+    {% if include.category %}
+    <li><a href="{{ include.category.url | relative_url }}">{{ include.category.title | escape }}</a></li>
+    {% assign category_topics = site.topics | where: 'category', include.category.id %}
+    {% assign segments = include.topic | split: '/' %}
+    {% assign topic_path = '' %}
+    {% for segment in segments %}
+      {% if forloop.first %}{% assign topic_path = segment %}{% else %}{% assign topic_path = topic_path | append: '/' | append: segment %}{% endif %}
+      {% assign ancestor = category_topics | where: 'topic', topic_path | first %}
+      {% if ancestor %}
+      <li>{% if include.current and forloop.last %}<span aria-current="page">{{ ancestor.title | escape }}</span>{% else %}<a href="{{ ancestor.url | relative_url }}">{{ ancestor.title | escape }}</a>{% endif %}</li>
+      {% endif %}
+    {% endfor %}
+    {% endif %}
+  </ol>
+</nav>

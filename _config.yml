@@ -1,5 +1,5 @@
 title: tech-notes
-description: 競技プログラミング・ロボット開発・CTF・一般開発の参考資料と技術メモ
+description: 競技プログラミング・ロボット開発・CTF・一般開発・数学・Web3の参考資料と技術メモ
 lang: ja
 url: https://okinisu.github.io
 baseurl: /tech-notes
@@ -8,6 +8,9 @@ highlighter: rouge
 timezone: Asia/Tokyo
 
 collections:
+  topics:
+    output: true
+    permalink: /:path/
   notes:
     output: true
     permalink: /notes/:path/
@@ -22,6 +25,11 @@ defaults:
       type: notes
     values:
       layout: note
+  - scope:
+      path: ""
+      type: topics
+    values:
+      layout: topic
 
 exclude:
   - README.md

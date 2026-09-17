@@ -2,6 +2,7 @@
 title: "003 - Longest Circular Road（★4）"
 description: "木に道路を1本追加し、できる閉路を最長にする問題。"
 category: competitive-programming
+topic: algorithms/graphs-trees
 kind: solution
 tags: [AtCoder, 競プロ典型90問, 木, BFS, 木の直径]
 ---

@@ -2,6 +2,7 @@
 title: "競プロ・AtCoder上達のガイドライン【初級編】"
 description: "競プロを始めるところから、茶色を目指す学習の進め方まで。"
 category: competitive-programming
+topic: getting-started
 kind: reference
 tags: [入門, AtCoder]
 ---

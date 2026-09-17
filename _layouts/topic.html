@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% assign category = site.data.categories | where: 'id', page.category | first %}
+<header class="page-header">
+  {% include breadcrumbs.html category=category topic=page.topic current=true %}
+  <h1>{{ page.title | escape }}</h1>
+  <p class="lead">{{ page.description | escape }}</p>
+</header>
+<div class="prose">{{ content }}</div>
+{% assign children = site.topics | where: 'category', page.category | where: 'parent', page.topic | sort: 'order' %}
+{% include topic-cards.html topics=children %}
+{% assign category_notes = site.notes | where: 'category', page.category | sort: 'title' %}
+{% assign topic_notes = '' | split: ',' %}
+{% assign topic_prefix = page.topic | append: '/' %}
+{% assign prefix_length = topic_prefix | size %}
+{% for note in category_notes %}
+  {% assign note_prefix = note.topic | slice: 0, prefix_length %}
+  {% if note.topic == page.topic or note_prefix == topic_prefix %}
+    {% assign topic_notes = topic_notes | push: note %}
+  {% endif %}
+{% endfor %}
+{% include note-list.html notes=topic_notes %}

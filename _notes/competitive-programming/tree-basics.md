@@ -2,6 +2,7 @@
 title: "木（グラフ理論）の参考資料"
 description: "グラフ理論の「木」の定義を確認するためのリンク。"
 category: competitive-programming
+topic: algorithms/graphs-trees
 kind: reference
 tags: [グラフ, 木, 数学]
 ---

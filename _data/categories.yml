@@ -1,6 +1,6 @@
 - id: competitive-programming
   title: 競技プログラミング
-  description: 入門資料、アルゴリズム・数学、問題の解法メモ。
+  description: 入門資料、分野別のアルゴリズム、C++、問題の解法メモ。
   url: /competitive-programming/
 - id: robotics
   title: ロボット開発
@@ -8,9 +8,17 @@
   url: /robotics/
 - id: ctf
   title: CTF
-  description: 分野別の参考資料、演習、問題のWriteup。
+  description: 分野別の参考資料、Writeup、KoTHなどの競技形式。
   url: /ctf/
 - id: development
   title: 一般開発
-  description: 言語、ツール、設計、開発中に学んだこと。
+  description: 言語、ツール、設計、OSごとの違い、開発中に学んだこと。
   url: /development/
+- id: mathematics
+  title: 数学
+  description: 整数・組合せ、線形代数、解析、確率・統計などの資料とメモ。
+  url: /mathematics/
+- id: web3
+  title: Web3
+  description: ブロックチェーン、スマートコントラクト、分散型アプリの資料と開発メモ。
+  url: /web3/

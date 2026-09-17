@@ -2,6 +2,7 @@
 title: "ABC475 C - Walk the Line"
 description: "一直線上の街を、移動距離の上限以内でできるだけ多く訪れる問題。"
 category: competitive-programming
+topic: algorithms/basic-techniques
 kind: solution
 tags: [AtCoder, 累積和, 全探索]
 ---

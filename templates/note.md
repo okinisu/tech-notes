@@ -2,6 +2,7 @@
 title: "メモのタイトル"
 description: "何についてのメモか、一言で紹介"
 category: competitive-programming
+topic: algorithms/basic-techniques
 kind: note
 tags: []
 ---
