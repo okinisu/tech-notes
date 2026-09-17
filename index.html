@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<header class="page-header home-header">
+  <p class="eyebrow">Okinisu's notes</p>
+  <h1>参考資料と、学んだことのメモ。</h1>
+  <p class="lead">競技プログラミングからロボット開発、CTF、一般開発まで。<br>気になった資料や、問題を解いたとき・ものを作ったときのメモをまとめます。</p>
+</header>
+<section aria-labelledby="categories-heading">
+  <h2 id="categories-heading">分野から探す</h2>
+  <div class="category-grid">
+    {% for category in site.data.categories %}
+    <a class="category-card" href="{{ category.url | relative_url }}">
+      <h3>{{ category.title | escape }} <span aria-hidden="true">→</span></h3>
+      <p>{{ category.description | escape }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>

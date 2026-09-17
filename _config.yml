@@ -1,0 +1,31 @@
+title: tech-notes
+description: 競技プログラミング・ロボット開発・CTF・一般開発の参考資料と技術メモ
+lang: ja
+url: https://okinisu.github.io
+baseurl: /tech-notes
+markdown: kramdown
+highlighter: rouge
+timezone: Asia/Tokyo
+
+collections:
+  notes:
+    output: true
+    permalink: /notes/:path/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: note
+
+exclude:
+  - README.md
+  - templates
+  - Gemfile
+  - Gemfile.lock
+  - vendor
