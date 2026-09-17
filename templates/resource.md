@@ -2,6 +2,7 @@
 title: "資料のタイトル"
 description: "何を学べる資料か、一言で紹介"
 category: competitive-programming
+kind: reference
 tags: []
 ---
 

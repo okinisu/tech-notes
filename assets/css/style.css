@@ -44,7 +44,7 @@ h3 { font-size: 1.1rem; }
 .empty-state { padding: 1.5rem; background: var(--surface); border: 1px dashed var(--border); border-radius: 12px; color: var(--muted); }
 .note-list { padding: 0; list-style: none; }
 .note-list li { padding-block: 1.2rem; border-bottom: 1px solid var(--border); }
-.note-list h2, .note-list p { margin: 0 0 .5rem; }
+.note-list h3, .note-list p { margin: 0 0 .5rem; }
 .tags { display: flex; flex-wrap: wrap; gap: .4rem; }
 .tags span { padding: .1rem .65rem; border: 1px solid var(--border); border-radius: 1rem; color: var(--muted); font-size: .8rem; }
 .prose { max-width: 76ch; }
