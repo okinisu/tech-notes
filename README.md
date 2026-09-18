@@ -79,7 +79,28 @@ _config.yml                サイト設定
 
 CTFには「分野別」と「競技形式」の入口があります。例えばWebの問題は `topic: fields/web`、KoTHの参加メモは `topic: formats/koth` に分類します。複数のテーマに関わる記事は、主なテーマを1つ選び、ほかの技術名はタグで補足します。
 
-一般開発のOS比較は `category: development`、`topic: os-differences` です。
+ロボット開発・一般開発のテーマは以下のとおりです。
+
+| 分野 | テーマ | topic |
+| --- | --- | --- |
+| ロボット開発 | 入門・環境構築 | `getting-started` |
+| ロボット開発 | 機構・ハードウェア | `mechanical-hardware` |
+| ロボット開発 | 電子回路・電源 | `electronics-power` |
+| ロボット開発 | 組み込み・通信 | `embedded-communication` |
+| ロボット開発 | 制御 | `control` |
+| ロボット開発 | 認識・自律動作 | `perception-autonomy` |
+| ロボット開発 | 製作記録 | `build-logs` |
+| 一般開発 | 言語・ライブラリ | `languages-libraries` |
+| 一般開発 | Web・アプリ開発 | `web-apps` |
+| 一般開発 | 設計・データベース | `design-databases` |
+| 一般開発 | 開発環境・ツール | `tools-environment` |
+| 一般開発 | テスト・品質改善 | `testing-quality` |
+| 一般開発 | インフラ・運用 | `infrastructure-operations` |
+| 一般開発 | 制作記録 | `project-logs` |
+| 一般開発 | OSごとの違い | `os-differences` |
+
+記事では `category: robotics` または `category: development` と、表の `topic` を指定します。
+
 数学とWeb3には独立した大分類を用意しています。テーマの細分化は、資料に合わせて追加できます。
 
 テーマを追加するには、`_topics/分野/テーマ.md` を作り、以下の情報を記入します。

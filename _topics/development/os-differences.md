@@ -4,5 +4,5 @@ description: "Windows・macOS・Linuxの比較。環境構築、コマンド、�
 category: development
 topic: os-differences
 parent: ""
-order: 10
+order: 80
 ---
