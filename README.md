@@ -89,10 +89,21 @@ CTFには「分野別」と「競技形式」の入口があります。例え�
 | ロボット開発 | 組み込み・通信 | `embedded-communication` |
 | ロボット開発 | 制御 | `control` |
 | ロボット開発 | 認識・自律動作 | `perception-autonomy` |
+| ロボット開発 | システム設計 | `system-design` |
+| ロボット開発 | システム設計 → ハードウェア構成 | `system-design/hardware` |
+| ロボット開発 | システム設計 → ソフトウェア構成 | `system-design/software` |
+| ロボット開発 | システム設計 → リアルタイム性・安全設計 | `system-design/realtime-safety` |
 | ロボット開発 | 製作記録 | `build-logs` |
 | 一般開発 | 言語・ライブラリ | `languages-libraries` |
 | 一般開発 | Web・アプリ開発 | `web-apps` |
-| 一般開発 | 設計・データベース | `design-databases` |
+| 一般開発 | 設計・アーキテクチャ | `architecture` |
+| 一般開発 | 設計・アーキテクチャ → ソフトウェア設計 | `architecture/software-design` |
+| 一般開発 | 設計・アーキテクチャ → システム設計 | `architecture/system-design` |
+| 一般開発 | データベース | `databases` |
+| 一般開発 | コンピュータアーキテクチャ | `computer-architecture` |
+| 一般開発 | コンピュータアーキテクチャ → CPU・命令セット | `computer-architecture/cpu-isa` |
+| 一般開発 | コンピュータアーキテクチャ → メモリ・キャッシュ | `computer-architecture/memory-cache` |
+| 一般開発 | コンピュータアーキテクチャ → 入出力・並列処理 | `computer-architecture/io-parallelism` |
 | 一般開発 | 開発環境・ツール | `tools-environment` |
 | 一般開発 | テスト・品質改善 | `testing-quality` |
 | 一般開発 | インフラ・運用 | `infrastructure-operations` |
@@ -100,6 +111,8 @@ CTFには「分野別」と「競技形式」の入口があります。例え�
 | 一般開発 | OSごとの違い | `os-differences` |
 
 記事では `category: robotics` または `category: development` と、表の `topic` を指定します。
+
+「設計・データベース」は「設計・アーキテクチャ」と「データベース」に分割しました。旧URL `/development/design-databases/` は新しい分類への案内ページとして残しています。新しい記事には `topic: architecture/software-design` や `topic: databases` などを指定してください。
 
 数学とWeb3には独立した大分類を用意しています。テーマの細分化は、資料に合わせて追加できます。
 
