@@ -133,6 +133,25 @@ order: 50
 
 `topic` を省略した記事も大分類の一覧に表示されます。公開前に、指定したテーマが `_topics/` 内に存在することを確認してください。
 
+## 追加の参考資料テーマ
+
+参考資料の整理に合わせ、以下のテーマも用意しています。
+
+| 分野 | テーマ | topic |
+| --- | --- | --- |
+| 競技プログラミング | アルゴリズム → ソート | `algorithms/sorting` |
+| ロボット開発 | 組み込み・通信（Arm開発ツールなど） | `embedded-communication` |
+| 一般開発 | 言語・ライブラリ → Python | `languages-libraries/python` |
+| 一般開発 | Web・アプリ開発 → Android開発 | `web-apps/android` |
+| 一般開発 | インフラ・運用 → ネットワーク・DNS | `infrastructure-operations/networking` |
+| 一般開発 | 公募・コンテスト | `contests` |
+| CTF | 大会情報・Writeup | `events` |
+| CTF | セキュリティニュース | `news` |
+| CTF | バグバウンティ（関連分野） | `bug-bounty` |
+| CTF | 分野別 → Web → Webセキュリティツール | `fields/web/tools` |
+
+参考資料の `source_url` は紹介先のURLです。追跡用のパラメーターは除き、日本語表示やマップの表示位置など、用途に必要な指定は残しています。
+
 ## ローカルで確認する
 
 RubyとBundlerが必要です。
